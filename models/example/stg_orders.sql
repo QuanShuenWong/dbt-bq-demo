@@ -11,4 +11,4 @@ FROM
 JOIN
     {{ ref("stg_customers") }} c ON o.Customer_ID = c.Customer_ID
 JOIN
-    dbt-crash-course-417016.dbt_qwong.products p ON o.Product_ID = p.Product_ID
+    dbt-crash-course-417016.dbt_qwong.Products p ON o.Product_ID = p.Product_ID
